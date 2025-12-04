@@ -5,3 +5,6 @@ clean_noise_subset.csv
 .ipynb_checkpoints/
 __pycache__/
 figures/
+
+# Track Figure_02 despite *.py ignore
+!Figure_02/**
