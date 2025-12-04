@@ -8,3 +8,4 @@ figures/
 
 # Track Figure_02 despite *.py ignore
 !Figure_02/**
+Figure_02/.ipynb_checkpoints/
