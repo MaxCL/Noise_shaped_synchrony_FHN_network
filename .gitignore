@@ -2,3 +2,5 @@
 clean_noise.npy
 clean_noise_subset.csv
 *.py
+.ipynb_checkpoints/
+__pycache__/
