@@ -8,7 +8,7 @@
 
 ## 📘 Description
 
-This repository contains the **data** and **code** used to generate the figures presented in:
+This repository contains the **data** and **code** used to generate the figures and table presented in:
 
 > *"Noise-shaped Synchrony in Neuronal Oscillator Networks"*  
 > Submitted for publication to *Physical Review Letters (Phys. Rev. Lett.)*.
@@ -37,12 +37,6 @@ venv\Scripts\activate
 ---
 
 ## 🧰 Installation Requirements
-
-Once the environment is activated, install the required packages:
-
-```bash
-pip install jupyterlab python3-notebook python3-jupyterlab-server jupyter-server
-```
 
 Alternatively, if you prefer a **system-wide installation**, you can use:
 
