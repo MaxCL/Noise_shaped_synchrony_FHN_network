@@ -83,6 +83,11 @@ You can reproduce results either by running scripts or by using Jupyter.
 jupyter-notebook 
 ```
 
+### Example
+```bash
+$jupyter-notebook Figure_01_FHN.ipynb
+```
+
 Open the notebooks or scripts inside the relevant `Figure_0X/` folders.
 
 
