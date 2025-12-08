@@ -137,6 +137,10 @@ See the [LICENSE](LICENSE) file for details.
 
 ---
 
+## Instructions for Windows users will be added soon. Stay tuned!
+
+---
+
 <p align="center">
   <b>Created by MaxCL</b>
 </p>
