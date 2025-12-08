@@ -20,7 +20,26 @@ modeled with the **FitzHugh–Nagumo (FHN)** equations.
 
 ## ⚙️ Recommended Usage
 
-Run everything inside a **Python virtual environment** and install dependencies from the new
+### Optional system dependency (LaTeX text rendering)
+
+Some figures may be configured to use Matplotlib's LaTeX rendering (`text.usetex=True`).
+If you see errors related to `texmanager`, install a LaTeX distribution:
+
+```bash
+sudo apt-get update
+sudo apt-get install -y texlive-latex-extra texlive-fonts-recommended dvipng cm-super
+```
+
+If you prefer not to install LaTeX, disable it in your notebook or in `figures_lib.py`:
+
+```python
+import matplotlib as mpl
+mpl.rcParams["text.usetex"] = False
+```
+
+### Python environment
+
+Run everything inside a **Python virtual environment** and install dependencies from
 `requirements.txt`. This keeps your system clean and ensures reproducibility.
 
 ---
@@ -61,7 +80,7 @@ You can reproduce results either by running scripts or by using Jupyter.
 ### Option A — JupyterLab
 
 ```bash
-jupyter-notebook
+jupyter lab
 ```
 
 Open the notebooks or scripts inside the relevant `Figure_0X/` folders.
