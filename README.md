@@ -61,7 +61,7 @@ You can reproduce results either by running scripts or by using Jupyter.
 ### Option A — JupyterLab
 
 ```bash
-jupyter lab
+jupyter-notebook
 ```
 
 Open the notebooks or scripts inside the relevant `Figure_0X/` folders.
