@@ -30,7 +30,7 @@ sudo apt-get update
 sudo apt-get install -y texlive-latex-extra texlive-fonts-recommended dvipng cm-super
 ```
 
-If you prefer not to install LaTeX, disable it in your notebook or in `figures_lib.py`:
+This is system-wide installation. If you prefer not to install LaTeX, disable it in your notebook or in `figures_lib.py`:
 
 ```python
 import matplotlib as mpl
@@ -40,7 +40,7 @@ mpl.rcParams["text.usetex"] = False
 ### Python environment
 
 Run everything inside a **Python virtual environment** and install dependencies from
-`requirements.txt`. This keeps your system clean and ensures reproducibility.
+`requirements.txt`. This keeps your system clean and ensures reproducibility (see below).
 
 ---
 
@@ -77,29 +77,14 @@ pip install -r requirements.txt
 
 You can reproduce results either by running scripts or by using Jupyter.
 
-### Option A — JupyterLab
+### Option A — Jupyter
 
 ```bash
-jupyter lab
+jupyter-notebook 
 ```
 
 Open the notebooks or scripts inside the relevant `Figure_0X/` folders.
 
-### Option B — Run utility scripts
-
-The repository includes helper scripts at the root level that support data preparation
-and figure/table generation workflows:
-
-```bash
-python split_noise.py
-python extract_clean_noise.py
-python gen_csv_files.py
-```
-
-(Exact usage may depend on the figure/table you are reproducing; see the corresponding
-folder for context and inputs.)
-
----
 
 ## 📂 Repository Structure
 
