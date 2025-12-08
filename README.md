@@ -8,18 +8,29 @@
 
 ## 📘 Description
 
-This repository contains the **data** and **code** used to generate the figures and table presented in:
+This repository contains the **code** and **data** used to generate the figures and table for:
 
 > *"Noise-shaped Synchrony in Neuronal Oscillator Networks"*  
 > Submitted for publication to *Physical Review Letters (Phys. Rev. Lett.)*.
 
-The work focuses on how **noise** influences synchrony patterns in **neuronal oscillator networks** modeled via the **FitzHugh–Nagumo (FHN)** equations.
+The project investigates how **noise shaping** affects synchrony in **neuronal oscillator networks**
+modeled with the **FitzHugh–Nagumo (FHN)** equations.
 
 ---
 
 ## ⚙️ Recommended Usage
 
-It is highly recommended to run this project inside a **Python virtual environment** to keep dependencies isolated.
+Run everything inside a **Python virtual environment** and install dependencies from the new
+`requirements.txt`. This keeps your system clean and ensures reproducibility.
+
+---
+
+## 🧰 Installation
+
+### ✅ Prerequisites
+
+- Python 3.x
+- `pip`
 
 ### 🧩 Create and activate a virtual environment
 
@@ -34,27 +45,40 @@ source venv/bin/activate
 venv\Scripts\activate
 ```
 
----
-
-## 🧰 Installation Requirements
-
-Alternatively, if you prefer a **system-wide installation**, you can use:
+### 📦 Install dependencies
 
 ```bash
-sudo apt install jupyterlab python3-notebook python3-jupyterlab-server jupyter-server
+python -m pip install --upgrade pip
+pip install -r requirements.txt
 ```
 
 ---
 
 ## 🚀 Getting Started
 
-Launch **JupyterLab** to explore and reproduce the figures:
+You can reproduce results either by running scripts or by using Jupyter.
+
+### Option A — JupyterLab
 
 ```bash
 jupyter lab
 ```
 
-Then, open the desired notebooks to visualize or modify the simulation results.
+Open the notebooks or scripts inside the relevant `Figure_0X/` folders.
+
+### Option B — Run utility scripts
+
+The repository includes helper scripts at the root level that support data preparation
+and figure/table generation workflows:
+
+```bash
+python split_noise.py
+python extract_clean_noise.py
+python gen_csv_files.py
+```
+
+(Exact usage may depend on the figure/table you are reproducing; see the corresponding
+folder for context and inputs.)
 
 ---
 
@@ -63,15 +87,37 @@ Then, open the desired notebooks to visualize or modify the simulation results.
 ```
 Noise_shaped_synchrony_FHN_network/
 │
-├── Figure_01/       # Scripts and data for Figure 01
-├── Figure_02/       # Scripts and data for Figure 02
-├── Figure_03/       # Scripts and data for Figure 03
-├── Figure_04/       # Scripts and data for Figure 04
-├── Table_01/        # Data table for results
+├── Figure_01/           # Scripts/data to reproduce Figure 01
+├── Figure_02/           # Scripts/data to reproduce Figure 02
+├── Figure_03/           # Scripts/data to reproduce Figure 03
+├── Figure_04/           # Scripts/data to reproduce Figure 04
+├── Table_01/            # Scripts/data to reproduce Table 01
 │
+├── figures/             # Shared/generated figure assets (if applicable)
+├── figures_lib.py       # Shared plotting/helpers used across figures
+├── split_noise.py       # Noise processing utility
+├── extract_clean_noise.py
+├── gen_csv_files.py     # Data export/helper utility
+│
+├── figure1a.png         # Preview image for this README
+├── requirements.txt     # Python dependencies (recommended install path)
 ├── LICENSE
 └── README.md
 ```
+
+---
+
+## 🧪 Reproducibility Notes
+
+- Always activate the virtual environment before running any code.
+- If you encounter missing packages, re-run:
+
+```bash
+pip install -r requirements.txt
+```
+
+- Results may vary slightly across machines due to numerical and random-seed differences
+unless seeds and runtime parameters are explicitly fixed within each figure workflow.
 
 ---
 
