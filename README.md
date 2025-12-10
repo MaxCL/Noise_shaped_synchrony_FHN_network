@@ -8,7 +8,7 @@
 
 ## Requirements
 
--   Python **3.11** (required)
+-   <b> Python **3.11** (required) </b>
 -   `pip`
 -   Recommended: virtual environment (`venv` or Conda)
 
