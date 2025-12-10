@@ -9,3 +9,9 @@ figures/
 # Track Figure_02 despite *.py ignore
 !Figure_02/**
 Figure_02/.ipynb_checkpoints/
+*.pdf
+*.png
+Figure_01/__pycache__/figures_lib.cpython-313.pyc
+Figure_01/figures/fig01_2sets_from_csv_noise_parts.pdf
+Figure_01/figures/fig01_2sets_from_csv_noise_parts.png
+
