@@ -1,10 +1,8 @@
 # Noise-shaped Synchrony in Neuronal Oscillator Networks
 
-```{=html}
 <p align="center">
 ```
 `<img src="figure1a.png" alt="Figure 1" width="500">`
-```{=html}
 </p>
 ```
 
@@ -167,10 +165,8 @@ See the [LICENSE](LICENSE) file for details.
 
 ------------------------------------------------------------------------
 
-```{=html}
 <p align="center">
 ```
 `<b>`{=html}Created by MaxCL`</b>`
-```{=html}
 </p>
 ```
