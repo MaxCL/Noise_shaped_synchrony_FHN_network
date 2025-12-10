@@ -1,10 +1,8 @@
 # Noise-shaped Synchrony in Neuronal Oscillator Networks
 
 <p align="center">
-```
 `<img src="figure1a.png" alt="Figure 1" width="500">`
 </p>
-```
 
 ------------------------------------------------------------------------
 
