@@ -164,5 +164,5 @@ See the [LICENSE](LICENSE) file for details.
 ------------------------------------------------------------------------
 
 <p align="center">
-<b>`{=html}Created by MaxCL`</b>
+<b>`Created by MaxCL`</b>
 </p>
