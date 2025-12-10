@@ -164,5 +164,6 @@ See the [LICENSE](LICENSE) file for details.
 ------------------------------------------------------------------------
 
 <p align="center">
-<b>Created by MaxCL</b>
+  <span style="color: #6a737d;"><b>Created by MaxCL</b></span>
 </p>
+
