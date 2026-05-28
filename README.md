@@ -24,8 +24,8 @@ This repository contains the **code** and **data** used to generate the
 figures and table for:
 
 > *"Noise-shaped Synchrony in Neuronal Oscillator Networks"*\
-> Submitted for publication to *Physical Review Letters (Phys.
-> Rev. Lett.)*.
+> Submitted for publication to *Physical Review E (Phys.
+> Rev. E)*.
 
 The project investigates how **noise shaping** affects synchrony in
 **neuronal oscillator networks** modeled with the **FitzHugh--Nagumo
