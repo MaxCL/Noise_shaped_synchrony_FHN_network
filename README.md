@@ -102,13 +102,13 @@ pip install -r requirements.txt
 
 You can reproduce results either by running scripts or by using Jupyter.
 
-### Option A --- Jupyter
+### Option A --- Run jupyter and navigate
 
 ``` bash
 jupyter-notebook
 ```
 
-### Example
+### Option B --- Run each notebook individually
 
 ``` bash
 $jupyter-notebook Figure_01_FHN.ipynb
